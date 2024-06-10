@@ -1,5 +1,1 @@
-# test
-# protrai
-# protrai
-# protrai
-# protrai
+ProgramingTraning I にて使用するパブリックレポジトリです。
