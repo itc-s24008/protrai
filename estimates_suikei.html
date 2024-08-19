@@ -1,0 +1,13 @@
+# s24008
+# 沖縄県の推計人口のページより最新情報をスクレイピングするPythonコード
+# http://ww.pref.okinawa.jp/toukeika/estimates/estimates_suikei.html
+
+import requests
+from bs4 import Beautifulsoup
+
+uri = 'http://ww.pref.okinawa.jp/toukeika/estimates/estimates_suikei.html'
+html = requests.get(uri)
+html.encoding = 'shift_JIS'
+
+print(html.text)
+
